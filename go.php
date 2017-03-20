@@ -13,4 +13,4 @@
 	$update = "UPDATE votaciones SET clicks='$votos' WHERE id='$id'";
 	mysql_query($update) or die (mysql_error());
 
-?>		
+?>	
